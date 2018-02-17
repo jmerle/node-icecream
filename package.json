@@ -1,0 +1,35 @@
+{
+  "name": "node-icecream",
+  "description": "Quick and easy variable and expression debugging",
+  "version": "1.0.0",
+  "author": "Jasper van Merle",
+  "license": "MIT",
+  "repository": "jmerle/node-icecream",
+  "main": "index.js",
+  "typings": "./index.d.ts",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "log",
+    "logging",
+    "debug",
+    "debugging"
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "acorn": "^5.4.1",
+    "app-root-path": "^2.0.1",
+    "astring": "^1.2.0",
+    "callsite": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^22.3.0"
+  }
+}
