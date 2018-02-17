@@ -9,6 +9,7 @@ node_js:
 cache: yarn
 
 install:
+  - yarn --frozen-lockfile --production=false
   - yarn global add codecov
 
 script:
